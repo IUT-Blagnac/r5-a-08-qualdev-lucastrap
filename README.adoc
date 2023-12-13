@@ -2,7 +2,7 @@
 :icons: font
 :MoSCoW: https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW[MoSCoW]
 
-Ce dépôt concerne les rendus de luca.straputicari@etu.univ-tlse2.fr[Luca Straputicari].
+Ce dépôt concerne les rendus de mailto:luca.straputicari@etu.univ-tlse2.fr[luca.straputicari].
 
 == TP1
 
@@ -24,6 +24,6 @@ Feature: It is Friday yet?
 ---
 
 .Exemple d'image insérée en asciidoc
-image::artifacts-r303.svg[width=80%]
+image::test1.png[width=80%]
 
 == TP2...
