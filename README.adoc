@@ -23,7 +23,7 @@ Feature: It is Friday yet?
         | anything else! | Nope   |
 ---
 
-.Exemple d'image insérée en asciidoc
+
 image::test1.png[width=80%]
 
 == TP2
@@ -56,5 +56,8 @@ public class Order {
     }
 }
 ---
+
+image::test2.png[width=80%]
+
 
 
