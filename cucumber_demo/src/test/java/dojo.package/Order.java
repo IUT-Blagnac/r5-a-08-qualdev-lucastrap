@@ -1,4 +1,4 @@
-package test.java.dojo;
+package dojo;
 
 import java.util.ArrayList;
 import java.util.List;
