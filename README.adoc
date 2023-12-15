@@ -80,6 +80,7 @@ Feature: Traceur de Courbe Elliptique
 
 ---
 
+image::test3.png[width=80%]
 
 
 Objectif : Mon but en faisant ces tests était de tester que les actions de l'utilisateur de l'application n'entraine pas un crash de l'application, ainsi si un test ne passe pas je sais qu'il faudra que je regle un certain point sinon l'application crash.
