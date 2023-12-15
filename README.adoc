@@ -1,6 +1,4 @@
 -- Dépôt pour les TPs
-:icons: font
-:MoSCoW: https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW[MoSCoW]
 
 Ce dépôt concerne les rendus de mailto:luca.straputicari@etu.univ-tlse2.fr[luca.straputicari].
 
@@ -59,5 +57,31 @@ public class Order {
 
 image::test2.png[width=80%]
 
+== TP3 
+
+Ma feature : 
+
+
+[source,python]
+---
+Feature: Traceur de Courbe Elliptique
+
+  Scenario: Update elliptic curve with valid parameters
+    Given we have behave installed
+    When we enter valid parameters for a, b, and p
+    And we click on "Mettre à jour la courbe"
+    Then the plot should be updated with the new elliptic curve
+
+  Scenario: Toggle between points and curve
+    Given we have behave installed
+    And we have an elliptic curve plotted
+    When we click on "Basculer Points/Courbe"
+    Then the plot should toggle between showing points and showing the curve
+
+---
+
+
+
+Objectif : Mon but en faisant ces tests était de tester que les actions de l'utilisateur de l'application n'entraine pas un crash de l'application, ainsi si un test ne passe pas je sais qu'il faudra que je regle un certain point sinon l'application crash.
 
 
